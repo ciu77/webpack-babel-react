@@ -1,0 +1,41 @@
+{"NomeSoftware":"ADAM","Ambienti":[
+    { "NomeAmbiente":"Salotto", "Device":[
+		{ "DeviceName":"Salotto01", "DeviceType":"Raspberry PI", "IPAddress":"192.168.1.13", "MAC address":"fe80::8c3c:c736:3898:45f9%12", "Sensori":[
+			{ "SensorName":"Temperatura", "SensorType":"Temperature", "SensorModel":"DHT11", "Value":20},
+			{ "SensorName":"Umidità", "SensorType":"Humidity", "SensorModel":"DHT11", "Value":23},
+			{ "SensorName":"Prossimità", "SensorType":"Proximity", "SensorModel":"HC-SR501", "Value":"SI"}
+		]}
+	]},
+    { "NomeAmbiente":"CameraGio", "Device":[
+		{ "DeviceName":"CameraGio", "DeviceType":"Raspberry PI", "IPAddress":"192.168.1.13", "MAC address":"fe80::8c3c:c736:3898:45f9%12", "Sensori":[
+			{ "SensorName":"Temperatura", "SensorType":"Temperature", "SensorModel":"", "Value":20},
+			{ "SensorName":"Umidità", "SensorType":"Humidity", "SensorModel":"DHT11", "Value":23},
+			{ "SensorName":"Prossimità", "SensorType":"Proximity", "SensorModel":"HC-SR501", "Value":"SI"},
+			{ "SensorName":"Pioggia", "SensorType":"Rain", "SensorModel":"MH-RD", "Value":"SI"},
+			{ "SensorName":"Distanza", "SensorType":"Ultrasons", "SensorModel":"HY-SRF05", "Value":"SI"}
+		]}
+	]},
+    { "NomeAmbiente":"Terrazzo", "Device":[
+		{ "DeviceName":"Terrazzo01", "DeviceType":"Raspberry PI", "IPAddress":"192.168.1.14", "MAC address":"fe80::8c3c:c736:3898:45f9%12", "Sensori":[
+			{ "SensorName":"Temperatura01", "SensorType":"Temperature", "SensorModel":"DS18B20", "Value":20},
+			{ "SensorName":"Temperatura02", "SensorType":"Temperature", "SensorModel":"DHT11", "Value":20},
+			{ "SensorName":"Umidità", "SensorType":"Humidity", "SensorModel":"DHT11", "Value":24},
+			{ "SensorName":"Prossimità", "SensorType":"Proximity", "SensorModel":"HC-SR501", "Value":"SI"},
+			{ "SensorName":"Igrometro01", "SensorType":"hygrometer", "SensorModel":"TH008", "Value":72},
+			{ "SensorName":"Igrometro02", "SensorType":"hygrometer", "SensorModel":"TH008", "Value":72},
+			{ "SensorName":"Igrometro03", "SensorType":"hygrometer", "SensorModel":"TH008", "Value":72}
+		]}
+	]},
+    { "NomeAmbiente":"Corridoio", "Device":[
+		{ "DeviceName":"Corridoio01", "DeviceType":"Raspberry PI", "IPAddress":"192.168.1.15", "MAC address":"fe80::8c3c:c736:3898:45f9%12", "Sensori":[
+			{ "SensorName":"Temperatura", "SensorType":"Temperature", "SensorModel":"DHT11", "Value":20},
+			{ "SensorName":"Umidità", "SensorType":"Humidity", "SensorModel":"DHT11", "Value":25},
+			{ "SensorName":"Prossimità", "SensorType":"Proximity", "SensorModel":"HC-SR501", "Value":"SI"}
+		]},
+		{ "DeviceName":"Soppalco", "DeviceType":"Raspberry PI", "IPAddress":"192.168.1.15", "MAC address":"fe80::8c3c:c736:3898:45f9%12", "Sensori":[
+			{ "SensorName":"Temperatura", "SensorType":"Temperature", "SensorModel":"DHT11", "Value":20},
+			{ "SensorName":"Umidità", "SensorType":"Humidity", "SensorModel":"DHT11", "Value":25},
+			{ "SensorName":"Prossimità", "SensorType":"Proximity", "SensorModel":"HC-SR501", "Value":"SI"}
+		]}
+	]}
+]}
